@@ -50,7 +50,7 @@ app.get("/Movies/ByName/:name", (req, res) => {
       movie.nombre.toLowerCase().includes(name.toLowerCase())
     );
 
-    if (!moviesFilter) {
+    if (!moviesFilter || moviesFilter.length ===0) {
       res.status(404).send(`No existe una coincidencia con ${name}`);
       return;
     }
