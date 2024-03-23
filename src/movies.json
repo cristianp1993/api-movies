@@ -1,55 +1,74 @@
 {
-    "movies": [
-      {
-        "id": 1,
-        "nombre": "Pulp Fiction",
-        "genero": "Drama/Crimen",
-        "fechaEstreno": "1994-10-14",
-        "director": "Quentin Tarantino",
-        "vista": true,
-        "calificacion": 9.0,
-        "critica": "Excelente película que combina drama y crimen de manera magistral."
-      },
-      {
-        "id": 2,
-        "nombre": "Inception",
-        "genero": "Ciencia ficción/Thriller",
-        "fechaEstreno": "2010-07-16",
-        "director": "Christopher Nolan",
-        "vista": true,
-        "calificacion": 8.5,
-        "critica": "Innovadora película que juega con la percepción y la realidad."
-      },
-      {
-        "id": 3,
-        "nombre": "The Shawshank Redemption",
-        "genero": "Drama",
-        "fechaEstreno": "1994-09-23",
-        "director": "Frank Darabont",
-        "vista": true,
-        "calificacion": 9.3,
-        "critica": "Una obra maestra del cine que aborda temas de redención y esperanza."
-      },
-      {
-        "id": 4,
-        "nombre": "The Godfather",
-        "genero": "Drama/Crimen",
-        "fechaEstreno": "1972-03-24",
-        "director": "Francis Ford Coppola",
-        "vista": true,
-        "calificacion": 9.2,
-        "critica": "Clásico del cine que narra la historia de una familia mafiosa en Estados Unidos."
-      },
-      {
-        "id": 5,
-        "nombre": "The Dark Knight",
-        "genero": "Acción/Drama",
-        "fechaEstreno": "2008-07-18",
-        "director": "Christopher Nolan",
-        "vista": true,
-        "calificacion": 9.0,
-        "critica": "Una película de superhéroes que trasciende el género con su complejidad y profundidad."
-      }
-    ]
-  }
-  
+  "movies": [
+    {
+      "id": 1,
+      "nombre": "El Planeta de los Simios",
+      "genero": "Ciencia ficción/Aventura",
+      "fechaEstreno": "1968-02-08",
+      "director": "Franklin J. Schaffner",
+      "vista": true,
+      "calificacion": 8,
+      "critica": "Una película visionaria y profundamente inteligente que explora temas como la evolución, la sociedad y la condición humana, a través de una premisa audaz y un giro final impactante."
+    },
+    {
+      "id": 2,
+      "nombre": "Inception",
+      "genero": "Ciencia ficción/Thriller",
+      "fechaEstreno": "2010-07-16",
+      "director": "Christopher Nolan",
+      "vista": true,
+      "calificacion": 8.5,
+      "critica": "Innovadora película que juega con la percepción y la realidad."
+    },
+    {
+      "id": 3,
+      "nombre": "The Shawshank Redemption",
+      "genero": "Drama",
+      "fechaEstreno": "1994-09-23",
+      "director": "Frank Darabont",
+      "vista": true,
+      "calificacion": 9.3,
+      "critica": "Una obra maestra del cine que aborda temas de redención y esperanza."
+    },
+    {
+      "id": 4,
+      "nombre": "The Godfather",
+      "genero": "Drama/Crimen",
+      "fechaEstreno": "1972-03-24",
+      "director": "Francis Ford Coppola",
+      "vista": true,
+      "calificacion": 9.2,
+      "critica": "Clásico del cine que narra la historia de una familia mafiosa en Estados Unidos."
+    },
+    {
+      "id": 5,
+      "nombre": "The Dark Knight",
+      "genero": "Acción/Drama",
+      "fechaEstreno": "2008-07-18",
+      "director": "Christopher Nolan",
+      "vista": true,
+      "calificacion": 9,
+      "critica": "Una película de superhéroes que trasciende el género con su complejidad y profundidad."
+    },
+    {
+      "id": 6,
+      "nombre": "Se7en",
+      "genero": "Suspenso/Crimen",
+      "fechaEstreno": "1995-09-22",
+      "director": "David Fincher",
+      "vista": false,
+      "calificacion": 8.6,
+      "critica": "Un thriller psicológico oscuro y perturbador sobre dos detectives que investigan una serie de asesinatos elaborados basados en los siete pecados capitales."
+    },
+    {
+      "id": 7,
+      "nombre": "Gone Girl",
+      "genero": "Suspenso/Misterio",
+      "fechaEstreno": "2014-10-03",
+      "director": "David Fincher",
+      "vista": true,
+      "calificacion": 8.1,
+      "critica": "Una cautivadora y oscura historia sobre un matrimonio quebrantado y las consecuencias de una desaparición misteriosa, que mantiene al espectador enganchado hasta el final."
+    }
+  ]
+}

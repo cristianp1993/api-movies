@@ -8,6 +8,12 @@ function getMovies(path){
 
 }
 
+function readMovies(path, newjson){
+
+    fs.writeFileSync(path,newjson)
+}
+
 module.exports ={
-    getMovies
+    getMovies,
+    readMovies
 }
