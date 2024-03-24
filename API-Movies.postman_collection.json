@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "fed9a1be-b524-48cb-b087-5a76727b529a",
+		"name": "API-Movies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7338861",
+		"_collection_link": "https://interstellar-eclipse-202245-1.postman.co/workspace/Saphety~e3a1bf20-df1f-4183-a4b7-322ee6294480/collection/7338861-fed9a1be-b524-48cb-b087-5a76727b529a?action=share&source=collection_link&creator=7338861"
+	},
+	"item": [
+		{
+			"name": "AllMovies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/Movies"
+			},
+			"response": []
+		},
+		{
+			"name": "MovieById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/Movies/ById/2"
+			},
+			"response": []
+		},
+		{
+			"name": "MovieByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/Movies/ByName/God"
+			},
+			"response": []
+		},
+		{
+			"name": "SendNewMovie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Casablanca\",\r\n  \"genero\": \"Drama/Romance\",\r\n  \"fechaEstreno\": \"1942-11-26\",\r\n  \"director\": \"Michael Curtiz\",\r\n  \"vista\": true,\r\n  \"calificacion\": 8.5,\r\n  \"critica\": \"Una película atemporal y romántica ambientada durante la Segunda Guerra Mundial, que explora temas como el sacrificio, el amor y la lealtad a través de personajes memorables y un guión brillante.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/Movies/SaveMovie"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateMovieById",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"El Planeta de los Simios\",\r\n  \"genero\": \"Ciencia ficción/Aventura\",\r\n  \"fechaEstreno\": \"1968-02-08\",\r\n  \"director\": \"Franklin J. Schaffner\",\r\n  \"vista\": true,\r\n  \"calificacion\": 8.0,\r\n  \"critica\": \"Una película visionaria y profundamente inteligente que explora temas como la evolución, la sociedad y la condición humana, a través de una premisa audaz y un giro final impactante.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/Movies/1"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteMovieById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"El Planeta de los Simios\",\r\n  \"genero\": \"Ciencia ficción/Aventura\",\r\n  \"fechaEstreno\": \"1968-02-08\",\r\n  \"director\": \"Franklin J. Schaffner\",\r\n  \"vista\": true,\r\n  \"calificacion\": 8.0,\r\n  \"critica\": \"Una película visionaria y profundamente inteligente que explora temas como la evolución, la sociedad y la condición humana, a través de una premisa audaz y un giro final impactante.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/Movies/8"
+			},
+			"response": []
+		}
+	]
+}
