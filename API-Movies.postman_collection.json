@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "fed9a1be-b524-48cb-b087-5a76727b529a",
 		"name": "API-Movies",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "7338861",
 		"_collection_link": "https://interstellar-eclipse-202245-1.postman.co/workspace/Saphety~e3a1bf20-df1f-4183-a4b7-322ee6294480/collection/7338861-fed9a1be-b524-48cb-b087-5a76727b529a?action=share&source=collection_link&creator=7338861"
 	},
@@ -12,7 +12,17 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/Movies"
+				"url": {
+					"raw": "http://localhost:3000/Movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Movies"
+					]
+				}
 			},
 			"response": []
 		},
@@ -21,7 +31,19 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/Movies/ById/2"
+				"url": {
+					"raw": "http://localhost:3000/Movies/ById/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Movies",
+						"ById",
+						"2"
+					]
+				}
 			},
 			"response": []
 		},
@@ -30,7 +52,19 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/Movies/ByName/God"
+				"url": {
+					"raw": "http://localhost:3000/Movies/ByName/God",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Movies",
+						"ByName",
+						"God"
+					]
+				}
 			},
 			"response": []
 		},
@@ -48,7 +82,18 @@
 						}
 					}
 				},
-				"url": "http://localhost:3000/Movies/SaveMovie"
+				"url": {
+					"raw": "http://localhost:3000/Movies/SaveMovie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Movies",
+						"SaveMovie"
+					]
+				}
 			},
 			"response": []
 		},
@@ -66,7 +111,47 @@
 						}
 					}
 				},
-				"url": "http://localhost:3000/Movies/1"
+				"url": {
+					"raw": "http://localhost:3000/Movies/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateAll",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"El Planeta de los Simios\",\r\n  \"genero\": \"Ciencia ficción/Aventura\",\r\n  \"fechaEstreno\": \"1968-02-08\",\r\n  \"director\": \"Franklin J. Schaffner\",\r\n  \"vista\": true,\r\n  \"calificacion\": 8.0,\r\n  \"critica\": \"Una película visionaria y profundamente inteligente que explora temas como la evolución, la sociedad y la condición humana, a través de una premisa audaz y un giro final impactante.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Movies/update-all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Movies",
+						"update-all"
+					]
+				}
 			},
 			"response": []
 		},
@@ -84,7 +169,18 @@
 						}
 					}
 				},
-				"url": "http://localhost:3000/Movies/8"
+				"url": {
+					"raw": "http://localhost:3000/Movies/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Movies",
+						"8"
+					]
+				}
 			},
 			"response": []
 		}
