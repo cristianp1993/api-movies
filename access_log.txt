@@ -32,3 +32,5 @@
 10 04 2024 09:28:22 [PUT] /Movies/15 {} {"nombre":"Baby Driver","genero":"Acción/Crimen","fechaEstreno":"2017-06-28","director":"Edgar Wright","vista":true,"calificacion":6.6,"critica":"Baby Driver es una película de acción y crimen dirigida por Edgar Wright. La trama sigue a Baby, un joven conductor de escapadas criminales que se ve atrapado en un peligroso mundo cuando intenta dejar atrás su vida delictiva. La película se destaca por su increíble diseño de sonido, secuencias de conducción emocionantes y una banda sonora ecléctica que complementa perfectamente las escenas de acción. La mezcla de ritmo y estilo visual hace que cada escena sea un deleite para los sentidos."} ::1
 
 10 04 2024 09:45:48 [PUT] /Movies/updateAt {} undefined ::1
+10 04 2024 09:59:17 [PUT] /Movies/updateAt {} undefined ::1
+10 04 2024 09:59:38 [PUT] /Movies/updateAt {} undefined ::1

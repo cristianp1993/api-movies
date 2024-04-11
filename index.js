@@ -485,7 +485,7 @@ app.put('/movies/updateAt',  (req, res) => {
     const updatedJsonObject = { movies: moviesData };
     readMovies(pathMovies, JSON.stringify(updatedJsonObject, null, 2));
 
-    res.status(200).send({ message: "Registros Actualizados Correctament con la fecha act" });
+    res.status(200).send(updatedJsonObject.movies);
   } catch (error) {
     console.error(error);
     res.status(500).send({ error: "Error actualizando las peliculas" });
