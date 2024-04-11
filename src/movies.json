@@ -8,7 +8,8 @@
       "director": "Franklin J. Schaffner",
       "vista": true,
       "calificacion": 8,
-      "critica": "Una película visionaria y profundamente inteligente que explora temas como la evolución, la sociedad y la condición humana, a través de una premisa audaz y un giro final impactante."
+      "critica": "Una película visionaria y profundamente inteligente que explora temas como la evolución, la sociedad y la condición humana, a través de una premisa audaz y un giro final impactante.",
+      "updated_at": "2024-04-10 21:43"
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "director": "Christopher Nolan",
       "vista": true,
       "calificacion": 8.5,
-      "critica": "Innovadora película que juega con la percepción y la realidad."
+      "critica": "Innovadora película que juega con la percepción y la realidad.",
+      "updated_at": "2024-04-10 21:43"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "director": "Frank Darabont",
       "vista": true,
       "calificacion": 9.3,
-      "critica": "Una obra maestra del cine que aborda temas de redención y esperanza."
+      "critica": "Una obra maestra del cine que aborda temas de redención y esperanza.",
+      "updated_at": "2024-04-10 21:43"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "director": "Francis Ford Coppola",
       "vista": true,
       "calificacion": 9.2,
-      "critica": "Clásico del cine que narra la historia de una familia mafiosa en Estados Unidos."
+      "critica": "Clásico del cine que narra la historia de una familia mafiosa en Estados Unidos.",
+      "updated_at": "2024-04-10 21:43"
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "director": "Christopher Nolan",
       "vista": true,
       "calificacion": 9,
-      "critica": "Una película de superhéroes que trasciende el género con su complejidad y profundidad."
+      "critica": "Una película de superhéroes que trasciende el género con su complejidad y profundidad.",
+      "updated_at": "2024-04-10 21:43"
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "director": "David Fincher",
       "vista": false,
       "calificacion": 8.6,
-      "critica": "Un thriller psicológico oscuro y perturbador sobre dos detectives que investigan una serie de asesinatos elaborados basados en los siete pecados capitales."
+      "critica": "Un thriller psicológico oscuro y perturbador sobre dos detectives que investigan una serie de asesinatos elaborados basados en los siete pecados capitales.",
+      "updated_at": "2024-04-10 21:43"
     },
     {
       "id": 7,
@@ -68,7 +74,116 @@
       "director": "David Fincher",
       "vista": true,
       "calificacion": 8.1,
-      "critica": "Una cautivadora y oscura historia sobre un matrimonio quebrantado y las consecuencias de una desaparición misteriosa, que mantiene al espectador enganchado hasta el final."
+      "critica": "Una cautivadora y oscura historia sobre un matrimonio quebrantado y las consecuencias de una desaparición misteriosa, que mantiene al espectador enganchado hasta el final.",
+      "updated_at": "2024-04-10 21:43"
+    },
+    {
+      "id": 8,
+      "nombre": "Doce hombres en pugna",
+      "genero": "Drama",
+      "fechaEstreno": "1957-04-10",
+      "director": "Sidney Lumet",
+      "vista": true,
+      "calificacion": 8.9,
+      "critica": "Doce hombres en pugna es un drama judicial clásico que se desarrolla principalmente en una sala de deliberación de un jurado. La película explora temas de justicia, prejuicio, responsabilidad y el poder de la persuasión. Con una dirección magistral de Sidney Lumet y actuaciones cautivadoras, esta película es un ejemplo brillante de narrativa cinematográfica que sigue siendo relevante hoy en día.",
+      "created_at": "2024-04-10 19:25",
+      "updated_at": "2024-04-10 21:43"
+    },
+    {
+      "id": 9,
+      "nombre": "The Green Mile",
+      "genero": "Drama/Fantasía",
+      "fechaEstreno": "1999-12-10",
+      "director": "Frank Darabont",
+      "vista": true,
+      "calificacion": 8.6,
+      "critica": "The Green Mile es una película basada en la novela de Stephen King que cuenta la historia de un guardia de prisión que se enfrenta a dilemas morales y a la presencia de un prisionero con poderes especiales. Con una narrativa emotiva y actuaciones impresionantes, la película explora temas como la injusticia, la redención y la compasión en un entorno carcelario.",
+      "created_at": "2024-04-10 19:35",
+      "updated_at": "2024-04-10 21:43"
+    },
+    {
+      "id": 10,
+      "nombre": "Parásitos",
+      "genero": "Drama/Comedia",
+      "fechaEstreno": "2019-05-30",
+      "director": "Bong Joon-ho",
+      "vista": true,
+      "calificacion": 8.6,
+      "critica": "Parásitos es una película surcoreana que ha recibido aclamación mundial por su originalidad y narrativa impactante. Dirigida por Bong Joon-ho, la película aborda temas como la desigualdad social y las diferencias de clase a través de una historia intrigante y llena de giros. Ganadora de múltiples premios, incluyendo el premio a Mejor Película en los Premios de la Academia, Parásitos es considerada una obra maestra del cine contemporáneo.",
+      "created_at": "2024-04-10 19:39",
+      "updated_at": "2024-04-10 21:43"
+    },
+    {
+      "id": 11,
+      "nombre": "Cruella",
+      "genero": "Comedia/Drama",
+      "fechaEstreno": "2021-05-28",
+      "director": "Craig Gillespie",
+      "vista": true,
+      "calificacion": 7.4,
+      "critica": "Cruella es una película que explora el origen y la historia de Cruella de Vil, el icónico personaje de Disney. Esta versión live-action presenta a una joven Cruella, interpretada por Emma Stone, y ofrece una visión fresca y moderna del personaje. Con un estilo visual impresionante y actuaciones destacadas, la película mezcla comedia y drama para crear una experiencia entretenida y emocionante para los espectadores.",
+      "created_at": "2024-04-10 19:42",
+      "updated_at": "2024-04-10 21:43"
+    },
+    {
+      "id": 12,
+      "nombre": "Green Book",
+      "genero": "Drama/Comedia",
+      "fechaEstreno": "2018-11-16",
+      "director": "Peter Farrelly",
+      "vista": true,
+      "calificacion": 8.2,
+      "critica": "Green Book es una película basada en hechos reales que narra la historia de la amistad entre un pianista afroamericano y su conductor italoamericano durante una gira por el sur de Estados Unidos en la década de 1960. La película aborda temas de racismo, discriminación y camaradería, ofreciendo una mirada conmovedora y a veces humorística a la lucha por la igualdad y la aceptación en un contexto histórico difícil.",
+      "created_at": "2024-04-10 19:43",
+      "updated_at": "2024-04-10 21:43"
+    },
+    {
+      "id": 13,
+      "nombre": "American Psycho",
+      "genero": "Drama/Thriller",
+      "fechaEstreno": "2000-04-14",
+      "director": "Mary Harron",
+      "vista": true,
+      "calificacion": 7.6,
+      "critica": "American Psycho es una película basada en la novela de Bret Easton Ellis que sigue la vida de Patrick Bateman, un exitoso ejecutivo de Wall Street que oculta su vida como un asesino en serie. La película aborda temas de la superficialidad, la alienación y la violencia en la sociedad moderna, ofreciendo una mirada perturbadora a la mente de un personaje complejo y perturbador.",
+      "created_at": "2024-04-10 19:46",
+      "updated_at": "2024-04-10 21:43"
+    },
+    {
+      "id": 14,
+      "nombre": "Back to the Future",
+      "genero": "Aventura/Comedia",
+      "fechaEstreno": "1985-07-03",
+      "director": "Robert Zemeckis",
+      "vista": true,
+      "calificacion": 8.5,
+      "critica": "Back to the Future es una película de aventuras y comedia dirigida por Robert Zemeckis. La historia sigue a Marty McFly, un joven que accidentalmente viaja en el tiempo a 1955 y se encuentra con sus padres antes de que se conocieran. La película es conocida por su ingenioso guion, la actuación de Michael J. Fox como Marty, y el icónico DeLorean convertido en máquina del tiempo. Es una de las películas más queridas y emblemáticas de la cultura pop.",
+      "created_at": "2024-04-10 19:47",
+      "updated_at": "2024-04-10 21:43"
+    },
+    {
+      "id": 15,
+      "nombre": "Baby Driver",
+      "genero": "Acción/Crimen",
+      "fechaEstreno": "2017-06-28",
+      "director": "Edgar Wright",
+      "vista": true,
+      "calificacion": 6.6,
+      "critica": "Baby Driver es una película de acción y crimen dirigida por Edgar Wright. La trama sigue a Baby, un joven conductor de escapadas criminales que se ve atrapado en un peligroso mundo cuando intenta dejar atrás su vida delictiva. La película se destaca por su increíble diseño de sonido, secuencias de conducción emocionantes y una banda sonora ecléctica que complementa perfectamente las escenas de acción. La mezcla de ritmo y estilo visual hace que cada escena sea un deleite para los sentidos.",
+      "created_at": "2024-04-10 21:28",
+      "updated_at": "2024-04-10 21:43"
+    },
+    {
+      "id": 16,
+      "nombre": "Focus",
+      "genero": "Crimen/Drama",
+      "fechaEstreno": "2015-02-27",
+      "director": "Glenn Ficarra, John Requa",
+      "vista": true,
+      "calificacion": 7.6,
+      "critica": "Focus es una película de crimen y drama dirigida por Glenn Ficarra y John Requa. La trama sigue a un estafador profesional que se involucra sentimentalmente con una mujer novata en el mundo del crimen, lo que pone en peligro sus planes. La película combina intriga, romance y giros inesperados en una trama intrigante que mantiene al espectador enganchado hasta el final.",
+      "created_at": "2024-04-10 20:42",
+      "updated_at": "2024-04-10 21:43"
     }
   ]
 }
